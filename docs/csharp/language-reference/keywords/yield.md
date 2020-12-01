@@ -17,7 +17,7 @@ ms.locfileid: "89141886"
 ---
 # <a name="yield-c-reference"></a>yield (Referencia de C#)
 
-Cuando se usa la `yield` [palabra clave contextual](index.md#contextual-keywords) en una instrucción, se indica que el método, el operador o el descriptor de acceso `get` en el que aparece es un iterador. Al usar `yield` para definir un iterador ya no es necesaria una clase adicional explícita (la clase que retiene el estado para una enumeración, consulte <xref:System.Collections.Generic.IEnumerator%601> para ver un ejemplo) al implementar los patrones <xref:System.Collections.IEnumerable> y <xref:System.Collections.IEnumerator> para un tipo de colección personalizado.
+Cuando se usa la [palabra clave contextual](index.md#contextual-keywords) `yield` en una instrucción, se indica que el método, el operador o el descriptor de acceso `get` en el que aparece es un iterador. Al usar `yield` para definir un iterador ya no es necesaria una clase adicional explícita (la clase que retiene el estado para una enumeración, consulte <xref:System.Collections.Generic.IEnumerator%601> para ver un ejemplo) al implementar los patrones <xref:System.Collections.IEnumerable> y <xref:System.Collections.IEnumerator> para un tipo de colección personalizado.
 
 En el ejemplo siguiente se muestran las dos formas de la instrucción `yield`.
 
